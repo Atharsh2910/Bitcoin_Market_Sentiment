@@ -128,3 +128,5 @@ Fear periods generally indicate accumulation opportunities
 Greed periods indicate higher risk and potential profit booking
 
 XGBoost regression offers a reasonable short-term sentiment forecast
+
+
