@@ -15,6 +15,8 @@ Install required libraries:
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost shap catboost
 ```
 
+---
+
 ## Steps to Run
 
 Clone the repository
