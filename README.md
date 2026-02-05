@@ -13,8 +13,9 @@ In this project, I analysed the Fear & Greed Index using a combination of superv
 Install required libraries:
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost shap catboost
+```
 
-Steps to Run
+## Steps to Run
 
 Clone the repository
 
@@ -36,8 +37,8 @@ value – Fear & Greed Index value
 
 classification – sentiment label (Fear / Neutral / Greed)
 
-Methodology and Approach
-1. Data Preprocessing
+## Methodology and Approach
+# 1. Data Preprocessing
 
 Checked dataset dimensions, missing values, and duplicates
 
@@ -47,14 +48,14 @@ Removed NaN and infinite values to ensure numerical stability
 
 Ensured clean and consistent input for all models
 
-2. Supervised Classification
+# 2. Supervised Classification
 
 Initially trained Random Forest, XGBoost, and CatBoost classifiers
 
 Observed evaluation metrics were perfect 1. So it was overfitted.
 
 
-3. Model Improvisation and Selection
+# 3. Model Improvisation and Selection
 
 Reduced model complexity by switching to Logistic Regression
 
@@ -64,7 +65,7 @@ The model generalised better and avoided memorisation
 
 Selected Logistic Regression as the final classifier based on reliability
 
-4. Classification Explainability and Visualisation
+# 4. Classification Explainability and Visualisation
 
 Used confusion matrix to evaluate class-wise performance
 
@@ -76,7 +77,7 @@ Analysed model coefficients for interpretability
 
 Used SHAP values to understand feature importance
 
-5. Unsupervised Learning (K-Means Clustering)
+# 5. Unsupervised Learning (K-Means Clustering)
 
 Applied K-Means clustering to identify sentiment regimes
 
@@ -86,7 +87,7 @@ Evaluated clustering using Silhouette Score and Calinski-Harabasz Index
 
 Observed clusters aligning with Fear, Neutral, and Greed sentiment periods
 
-6. Regression and Forecasting
+# 6. Regression and Forecasting
 
 Trained an XGBoost regression model
 
@@ -98,7 +99,7 @@ Evaluated performance using Mean Squared Error (MSE) and Mean Absolute Error (MA
 
 Forecasted sentiment values for the next six days
 
-7. Visualisation
+# 7. Visualisation
 
 Compared actual vs predicted sentiment trends
 
@@ -112,7 +113,7 @@ Visualised six-day forecast trend
 
 Created an executive summary chart for final sentiment interpretation
 
-Final Conclusions
+# 8. Final Conclusions
 
 Logistic Regression provides the most reliable and interpretable classification
 
